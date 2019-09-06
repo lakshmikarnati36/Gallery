@@ -1,0 +1,33 @@
+/* tab styling */
+.tab-container {
+  width: 50%;
+}
+.tab-container .tabs .tab a {
+  color: #ffffff;
+
+  /* line-height: 70px;
+  display: inline-flex; */
+}
+.tab-container .tabs .tab a i {
+  display: inline;
+  /* line-height: 70px; */
+}
+.messenger-container {
+  background-color: #cccccc;
+  height: 550px;
+}
+.logo-content {
+  margin-left: 100px;
+  position: relative;
+}
+.logo-circle {
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+  position: absolute;
+  left: -60px;
+  top: 6px;
+}
+.gallery-card {
+  height: 280px !important;
+}

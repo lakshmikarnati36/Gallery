@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./asserts/materialize/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./src/share/style.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <nav class="purple darken-4 ">
+      <div class="nav-wrapper ">
+        <a href="#" class="brand-logo logo-content"
+          ><img
+            src="./asserts/images/lakshmi.jpg"
+            alt=""
+            class="logo-circle"
+          />Lakshmi</a
+        >
+        <div class="tab-container right">
+          <ul class="tabs purple darken-4 row">
+            <li class="tab col s4">
+              <a href="#gallery">
+                <i class="large material-icons">insert_photo</i>Gallery</a
+              >
+            </li>
+            <li class="tab col s4">
+              <a href="#friends">
+                <i class="large material-icons">people</i> Friends</a
+              >
+            </li>
+            <li class="tab col s4">
+              <a href="#messenger"
+                ><i class="large material-icons">message</i> Messanger</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="gallery">
+      <div class="container">
+        <div class="row" id="galleryRoot"></div>
+      </div>
+      <div class="fixed-action-btn">
+        <!-- Modal Trigger -->
+        <a
+          class="btn-floating btn-medium red waves-effect waves-light modal-trigger"
+          href="#galleryModal"
+        >
+          <i class="large material-icons">add</i>
+        </a>
+      </div>
+      <!-- Modal Structure -->
+      <div id="galleryModal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="friends">
+      <div class="container">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Kalyani</span>
+
+            <a href="#!" class="secondary-content"
+              ><i class="material-icons">delete</i></a
+            >
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Maneesh</span>
+            <p>9876543211<br /></p>
+            <a href="#!" class="secondary-content"
+              ><i class="material-icons">delete</i></a
+            >
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Ayansh</span>
+            <p>9876543213 <br /></p>
+            <a href="#!" class="secondary-content"
+              ><i class="material-icons">delete</i></a
+            >
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Meghana</span>
+            <p>9876543214 <br /></p>
+            <a href="#!" class="secondary-content"
+              ><i class="material-icons">delete</i></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="fixed-action-btn">
+        <!-- Modal Trigger -->
+        <a
+          class="btn-floating btn-medium red waves-effect waves-light modal-trigger"
+          href="#friendModal"
+        >
+          <i class="large material-icons">add</i>
+        </a>
+      </div>
+      <!-- Modal Structure -->
+      <div id="friendModal" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat"
+            >Agree</a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="messenger" class="row">
+      <div class="col s4 m4 l4">
+        <ul class="collection">
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Kalyani</span>
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Maneesh</span>
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Ayansh</span>
+          </li>
+          <li class="collection-item avatar">
+            <img src="./asserts/images/avatar.png" alt="" class="circle" />
+            <span class="title">Meghana</span>
+          </li>
+        </ul>
+      </div>
+      <div class="col s8 m8 l8">
+        <div class="messenger-container card-panel">
+          <div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+            <div class="card-panel teal lighten-2">
+              This is a card panel with a teal lighten-2 class
+            </div>
+          </div>
+
+          <div class="input-field card-panel">
+            <i class="material-icons prefix">message</i>
+            <textarea
+              id="icon_prefix2"
+              class="materialize-textarea"
+              placeholder="Type a message"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+
+    <script type="text/javascript" src="./asserts/jquery.js"></script>
+
+    <script
+      type="text/javascript"
+      src="./asserts/materialize/js/materialize.min.js"
+    ></script>
+    <script type="text/javascript" src="./asserts/data.js"></script>
+    <script type="text/javascript" src="./src/share/customMaterial.js"></script>
+    <script type="text/javascript" src="./src/gallery.js"></script>
+    <script type="text/javascript" src="./src/friends.js"></script>
+    <script type="text/javascript" src="./src/messenger.js"></script>
+  </body>
+</html>
